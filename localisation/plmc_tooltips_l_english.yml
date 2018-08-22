@@ -1,0 +1,24 @@
+﻿l_english:
+ union_1: "First envoy is sent"
+ union_2: "Second envoy is sent"
+ union_3: "Third envoy is sent"
+
+ demand_conversion: "This may anger the Russians"
+ refrain_from_conversion: "This may make the Russians more willing to accept"
+ converted: "This may make the Poles like us more"
+ didnt_convert: "This may sabotage the negotiations"
+ lands_demanded: "This may sabotage the negotiations"
+ lands_not_demanded: "This may make negotiations go smoothly"
+ trasnfered_rus_lands: "This may make the Russians more willing to accept"
+ refused_transfer: "This may anger the Russians"
+ 
+ religious_freedom: "This may give us a better opportunity at settling their lands later"
+ no_religious freedom: "We won't bother with such an affair"
+ religious_freedom_accepted: "The negotiations will go smoother"
+ religious_freedom_denied: "The poles won't take too kindly to this"
+ propose_land_division: "The response may affect the negotiations"
+ refrain_from_dividing_land: "Leave everything as it is"
+ accept_land_division: "The lands will be divided and transferred"
+ refuse_land_division: "The poles won't like this"
+ 
+ settling_starts: "Start settling Russian lands"
