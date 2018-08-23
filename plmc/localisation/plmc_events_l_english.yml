@@ -1,6 +1,6 @@
 ﻿l_english:
  muscovite_union.1.t:0 "Unia Troista"
- muscovite_union.1.t:0 "As [Root.Monarch.GetName] is bedridden by his affliction, the Sejm has been in a heated debate over who we should elect as our next king, with pro-[UNION_TARGET.GetAdjective] faction winning the choice befell onto [UNION_TARGET.Monarch.GetName].\n A diplomatic envoy is being prepared to be sent into Russian lands with the best of diplomats we have available. Russians will undoubtedly make their demands, but with cunning words and some concessions, we hope to persuade them into not only taking our crown but also uniting our countries like Poland and Lithuania."
+ muscovite_union.1.d:0 "As [Root.Monarch.GetName] is bedridden by his affliction, the Sejm has been in a heated debate over who we should elect as our next king, with pro-[UNION_TARGET.GetAdjective] faction winning the choice befell onto [UNION_TARGET.Monarch.GetName].\n A diplomatic envoy is being prepared to be sent into Russian lands with the best of diplomats we have available. Russians will undoubtedly make their demands, but with cunning words and some concessions, we hope to persuade them into not only taking our crown but also uniting our countries like Poland and Lithuania."
  muscovite_union.1.a:0 "Send the envoy!"
  
  muscovite_union.2.t:0 "Second Envoy"
