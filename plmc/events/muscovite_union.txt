@@ -2,13 +2,13 @@ namespace = muscovite_union
 
 country_event = { #First envoy preparation event
 	id = muscovite_union.1
-	title = muscovite_union.t.1
-	desc = muscovite_union.d.1
+	title = "muscovite_union.1.t"
+	desc = "muscovite_union.1.d"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "muscovite_union.a.1"
+		name = "muscovite_union.1"
 		custom_tooltip = union_1
 		hidden_effect = {
 			set_variable = {
@@ -22,13 +22,13 @@ country_event = { #First envoy preparation event
 
 country_event = { #Second envoy preparation event
 	id = muscovite_union.2
-	title = muscovite_union.t.2
-	desc = muscovite_union.d.2
+	title = "muscovite_union.2.t"
+	desc = "muscovite_union.2.d"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "muscovite_union.a.2"
+		name = "muscovite_union.2.a"
 		custom_tooltip = union_2
 		hidden_effect = {
 			set_variable = {
@@ -42,13 +42,13 @@ country_event = { #Second envoy preparation event
 
 country_event = { #Third envoy preparation event
 	id = muscovite_union.3
-	title = muscovite_union.t.3
-	desc = muscovite_union.d.3
+	title = "muscovite_union.3.t"
+	desc = "muscovite_union.3.d"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "muscovite_union.a.3"
+		name = "muscovite_union.3.a"
 		custom_tooltip = union_3
 		hidden_effect = {
 			set_variable = {
@@ -62,20 +62,20 @@ country_event = { #Third envoy preparation event
 
 country_event = { #Make them convert to Catholicism?
 	id = muscovite_union.11
-	title = muscovite_union.t.11
-	desc = muscovite_union.d.11
+	title = "muscovite_union.11.t"
+	desc = "muscovite_union.11.d"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "muscovite_union.a.11"
+		name = "muscovite_union.11.a"
 		custom_tooltip = demand_conversion
 		set_global_flag = union_envoy_sent
 		set_global_flag = plc_demanded_conversion
 	}
 	
 	option = {
-		name = "muscovite_union.b.11"
+		name = "muscovite_union.11.b"
 		custom_tooltip = refrain_from_conversion
 		set_global_flag = union_envoy_sent
 	}
@@ -83,8 +83,8 @@ country_event = { #Make them convert to Catholicism?
 
 country_event = { #Accept conversion?
 	id = muscovite_union.12
-	title = muscovite_union.t.12
-	desc = muscovite_union.d.12
+	title = "muscovite_union.12.t"
+	desc = "muscovite_union.12.d"
 	
 	trigger = {
 		has_global_flag = union_envoy_sent
@@ -102,14 +102,14 @@ country_event = { #Accept conversion?
 	}
 	
 	option = { #Yes
-		name = "muscovite_union.a.12"
+		name = "muscovite_union.12.a"
 		custom_tooltip = converted
 		set_global_flag = accepted_freedom
 		country_event = muscovite_union.13
 	}
 	
 	option = { #No
-		name = "muscovite_union.b.12"
+		name = "muscovite_union.12.b"
 		custom_tooltip = didnt_convert
 		hidden_effect = {
 			change_variable = {
@@ -123,8 +123,8 @@ country_event = { #Accept conversion?
 
 country_event = { #Continuing negotiations with no conversion demand
 	id = muscovite_union.121
-	title = muscovite_union.t.121
-	desc = muscovite_union.d.121
+	title = "muscovite_union.121.t"
+	desc = "muscovite_union.121.d"
 	
 	hidden = yes
 	
@@ -139,7 +139,7 @@ country_event = { #Continuing negotiations with no conversion demand
 	}
 	
 	option = {
-		name = "muscovite_union.a.121"
+		name = "muscovite_union.121.a"
 		clr_global_flag = union_envoy_sent
 		country_event = muscovite_union.13
 	}
@@ -147,20 +147,20 @@ country_event = { #Continuing negotiations with no conversion demand
 
 country_event = { #Demand Ruthenian lands
 	id = muscovite_union.13
-	title = muscovite_union.t.13
-	desc = muscovite_union.d.13
+	title = "muscovite_union.13.t"
+	desc = "muscovite_union.13.d"
 	
 	is_triggered_only = yes
 	
 	option = { #Yes
-		name = "muscovite_union.a.13"
+		name = "muscovite_union.13.a"
 		custom_tooltip = lands_demanded
 		set_global_flag = response_envoy_sent
 		set_global_flag = demanded_rus_lands
 	}
 	
 	option = { #No
-		name = "muscovite_union.b.13"
+		name = "muscovite_union.13.b"
 		custom_tooltip = lands_not_demanded
 		set_global_flag = response_envoy_sent
 	}
@@ -168,8 +168,8 @@ country_event = { #Demand Ruthenian lands
 
 country_event = { #Transfer Ruthenian lands?
 	id = muscovite_union.14
-	title = muscovite_union.t.14
-	desc = muscovite_union.d.14
+	title = "muscovite_union.14.t"
+	desc = "muscovite_union.14.d"
 	
 	trigger = {
 		has_global_flag = response_envoy_sent
@@ -187,14 +187,14 @@ country_event = { #Transfer Ruthenian lands?
 	}
 	
 	option = { #Yes
-		name = "muscovite_union.a.14"
+		name = "muscovite_union.14.a"
 		custom_tooltip = trasnfered_rus_lands
 		set_global_flag = accepted_rus_transfer
 		set_global_flag = negotiations_over
 	}
 	
 	option = { #No
-		name = "muscovite_union.b.14"
+		name = "muscovite_union.14.b"
 		custom_tooltip = refused_transfer
 		hidden_effect = {
 			change_variable = {
@@ -208,8 +208,8 @@ country_event = { #Transfer Ruthenian lands?
 
 country_event = { #Ending negotiations with no Rus lands demand
 	id = muscovite_union.141
-	title = muscovite_union.t.141
-	desc = muscovite_union.d.141
+	title = "muscovite_union.141.t"
+	desc = "muscovite_union.141.d"
 	
 	hidden = yes
 	
@@ -223,7 +223,7 @@ country_event = { #Ending negotiations with no Rus lands demand
 	}
 	
 	option = {
-		name = "muscovite_union.a.141"
+		name = "muscovite_union.141.a"
 		clr_global_flag = response_envoy_sent
 		set_global_flag = negotiations_over
 	}
@@ -231,8 +231,8 @@ country_event = { #Ending negotiations with no Rus lands demand
 
 country_event = { #Union event (first attempt)
 	id = muscovite_union.15
-	title = muscovite_union.t.15
-	desc = muscovite_union.d.15
+	title = "muscovite_union.15.t"
+	desc = "muscovite_union.15.d"
 	
 	trigger = {
 		has_global_flag = negotiations_over
@@ -249,7 +249,7 @@ country_event = { #Union event (first attempt)
 	}
 	
 	option = { #We accept
-		name = "muscovite_union.a.15"
+		name = "muscovite_union.15.a"
 		ai_chance = {
 			factor = 1
 			modifier = {
@@ -303,7 +303,7 @@ country_event = { #Union event (first attempt)
 	}
 	
 	option = { #We refuse
-		name = "muscovite_union.b.15"
+		name = "muscovite_union.15.b"
 		ai_chance = {
 			factor = 0.01
 			modifier = {
@@ -334,20 +334,20 @@ country_event = { #Union event (first attempt)
 
 country_event = { #Propose religious freedom?
 	id = muscovite_union.21
-	title = muscovite_union.t.21
-	desc = muscovite_union.d.21
+	title = "muscovite_union.21.t"
+	desc = "muscovite_union.21.d"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "muscovite_union.a.21"
+		name = "muscovite_union.21.a"
 		custom_tooltip = religious_freedom
 		set_global_flag = union_envoy_sent_2
 		set_global_flag = plc_offered_religious_freedom
 	}
 	
 	option = {
-		name = "muscovite_union.b.21"
+		name = "muscovite_union.21.b"
 		custom_tooltip = no_religious freedom
 		set_global_flag = union_envoy_sent_2
 	}
@@ -355,8 +355,8 @@ country_event = { #Propose religious freedom?
 
 country_event = { #PLC offers religious freedom
 	id = muscovite_union.22
-	title = muscovite_union.t.22
-	desc = muscovite_union.d.22
+	title = "muscovite_union.22.t"
+	desc = "muscovite_union.22.d"
 	
 	trigger = {
 		has_global_flag = union_envoy_sent_2
@@ -375,14 +375,14 @@ country_event = { #PLC offers religious freedom
 	}
 	
 	option = { #Yes
-		name = "muscovite_union.a.22"
+		name = "muscovite_union.22.a"
 		custom_tooltip = religious_freedom_accepted
 		set_global_flag = accepted_freedom
 		event = muscovite_union.23
 	}
 	
 	option = { #No
-		name = "muscovite_union.b.22"
+		name = "muscovite_union.22.b"
 		custom_tooltip = religious_freedom_denied
 		hidden_effect = {
 			change_variable = {
@@ -396,8 +396,8 @@ country_event = { #PLC offers religious freedom
 
 country_event = { #Continuing negotiations with no religious offer
 	id = muscovite_union.221
-	title = muscovite_union.t.221
-	desc = muscovite_union.d.221
+	title = "muscovite_union.221.t"
+	desc = "muscovite_union.221.d"
 	
 	hidden = yes
 	
@@ -412,7 +412,7 @@ country_event = { #Continuing negotiations with no religious offer
 	}
 	
 	option = {
-		name = "muscovite_union.a.221"
+		name = "muscovite_union.221.a"
 		clr_global_flag = union_envoy_sent
 		country_event = muscovite_union.23
 	}
@@ -420,20 +420,20 @@ country_event = { #Continuing negotiations with no religious offer
 
 country_event = { #Divide lands between PLC and Russia
 	id = muscovite_union.23
-	title = muscovite_union.t.23
-	desc = muscovite_union.d.23
+	title = "muscovite_union.23.t"
+	desc = "muscovite_union.23.d"
 	
 	is_triggered_only = yes
 	
 	option = { #Propose a solution
-		name = "muscovite_union.a.23"
+		name = "muscovite_union.23.a"
 		custom_tooltip = propose_land_division
 		set_global_flag = second_union_envoy_sent
 		set_global_flag = divide_lands
 	}
 	
 	option = { #Refuse
-		name = "muscovite_union.b.23"
+		name = "muscovite_union.23.b"
 		custom_tooltip = refrain_from_dividing_land
 		set_global_flag = second_union_envoy_sent
 	}
@@ -441,8 +441,8 @@ country_event = { #Divide lands between PLC and Russia
 
 country_event = { #PLC proposes border corrections
 	id = muscovite_union.24
-	title = muscovite_union.t.24
-	desc = muscovite_union.d.24
+	title = "muscovite_union.24.t"
+	desc = "muscovite_union.24.d"
 	
 	trigger = {
 		has_global_flag = second_union_envoy_sent
@@ -460,14 +460,14 @@ country_event = { #PLC proposes border corrections
 	}
 	
 	option = { #We agree
-		name = "muscovite_union.b.24"
+		name = "muscovite_union.24.a"
 		custom_tooltip = accept_land_division
 		set_global_flag = accepted_border_corrections
 		set_global_flag = negotiations_over_2
 	}
 	
 	option = { #No
-		name = "muscovite_union.b.24"
+		name = "muscovite_union.24.b"
 		custom_tooltip = refuse_land_division
 		hidden_effect = {
 			change_variable = {
@@ -481,8 +481,8 @@ country_event = { #PLC proposes border corrections
 
 country_event = { #Ending negotiations without border correction proposal
 	id = muscovite_union.241
-	title = muscovite_union.t.241
-	desc = muscovite_union.d.241
+	title = "muscovite_union.241.t"
+	desc = "muscovite_union.241.d"
 	
 	hidden = yes
 	
@@ -497,7 +497,7 @@ country_event = { #Ending negotiations without border correction proposal
 	}
 	
 	option = {
-		name = "muscovite_union.a.241"
+		name = "muscovite_union.241.a"
 		clr_global_flag = second_union_envoy_sent
 		set_global_flag = negotiations_over_2
 	}
@@ -505,8 +505,8 @@ country_event = { #Ending negotiations without border correction proposal
 
 country_event = { #Union event (second attempt)
 	id = muscovite_union.25
-	title = muscovite_union.d.25
-	desc = muscovite_union.d.25
+	title = "muscovite_union.25.t"
+	desc = "muscovite_union.25.d"
 	
 	trigger = {
 		has_global_flag = negotiations_over
@@ -522,7 +522,7 @@ country_event = { #Union event (second attempt)
 	}
 	
 	option = { #We agree
-		name = "muscovite_union.a.25"
+		name = "muscovite_union.25.a"
 		ai_chance = {
 			factor = 1
 			modifier = {
@@ -588,7 +588,7 @@ country_event = { #Union event (second attempt)
 	}
 	
 	option = { #We refuse
-		name = "muscovite_union.b.25"
+		name = "muscovite_union.25.b"
 		ai_chance = {
 			factor = 0.01
 			modifier = {
@@ -619,8 +619,8 @@ country_event = { #Union event (second attempt)
 
 country_event = { #Union event (third attempt)
 	id = muscovite_union.31
-	title = muscovite_union.t.31
-	desc = muscovite_union.d.31
+	title = "muscovite_union.31.t"
+	desc = "muscovite_union.31.d"
 	
 	is_triggered_only = yes
 	
@@ -631,7 +631,7 @@ country_event = { #Union event (third attempt)
 	}
 	
 	option = { #We agree
-		name = muscovite_union.a.31
+		name = "muscovite_union.31.a"
 		ai_chance = {
 			factor = 1
 			modifier = {
@@ -650,7 +650,7 @@ country_event = { #Union event (third attempt)
 	}
 	
 	option = { #We refuse
-		name = "muscovite_union.b.31"
+		name = "muscovite_union.31.b"
 		ai_chance = {
 			factor = 0.01
 			modifier = {
@@ -674,8 +674,8 @@ country_event = { #Union event (third attempt)
 
 province_event = {
 	id = muscovite_union.4
-	title = muscovite_union.t.4
-	desc = muscovite_union.d.4
+	title = "muscovite_union.4.t"
+	desc = "muscovite_union.4.d"
 	
 	trigger = {
 	
@@ -720,7 +720,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "muscovite_union.a.4"
+		name = "muscovite_union.4.a"
 		change_culture = polonised_russian
 	}
 }
