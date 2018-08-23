@@ -1,7 +1,7 @@
 ﻿l_english:
- catholic_influence_in_union: "Catholic Influence in the Union"
- desc_catholic_influence_in_union: "Unia Troista establishes freedom of religion within our borders, and with many polish people now settling down in our lands, it has become apparent that all christians are truly equal."
- major_orthodox_in_union: "Major Orthodox Country in the Union"
- desc_major_orthodox_in_union: "With Eastern Europe secure under our rule and Warsaw Compact reinforced we are now going through the hard process of integrating and uniting foreign people."
+ catholic_influence_in_union:0 "Catholic Influence in the Union"
+ desc_catholic_influence_in_union:0 "Unia Troista establishes freedom of religion within our borders, and with many polish people now settling down in our lands, it has become apparent that all christians are truly equal."
+ major_orthodox_in_union:0 "Major Orthodox Country in the Union"
+ desc_major_orthodox_in_union:0 "With Eastern Europe secure under our rule and Warsaw Compact reinforced we are now going through the hard process of integrating and uniting foreign people."
  
- rejected_plc_union: "Rejected the Union"
+ rejected_plc_union:0 "Rejected the Union"
