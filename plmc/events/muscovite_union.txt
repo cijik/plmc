@@ -8,7 +8,7 @@ country_event = { #First envoy preparation event
 	is_triggered_only = yes
 	
 	option = {
-		name = "muscovite_union.1"
+		name = "muscovite_union.1.a"
 		custom_tooltip = union_1
 		hidden_effect = {
 			set_variable = {
