@@ -44,7 +44,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			country_event = muscovite_union.1
+			country_event = { id = muscovite_union.1 }
 			set_country_flag = sent_first_envoy
 		}
 	}
@@ -108,7 +108,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			country_event = muscovite_union.2
+			country_event = { id = muscovite_union.2 }
 			set_country_flag = sent_second_envoy
 		}
 	}
@@ -173,7 +173,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			country_event = muscovite_union.3
+			country_event = { id = muscovite_union.3 }
 			set_country_flag = sent_third_envoy 
 		}
 	}
